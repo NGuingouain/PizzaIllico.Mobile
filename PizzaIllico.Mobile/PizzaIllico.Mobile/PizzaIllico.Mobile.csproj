@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+        <DebugType>pdbonly</DebugType>
+        <DebugSymbols>true</DebugSymbols>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+        <PackageReference Include="Storm.Mvvm.Forms" Version="2.4.0" />
+        <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+        <PackageReference Include="Xamarin.Forms" Version="4.8.0.1821" />
+        <PackageReference Include="Xamarin.Forms.Maps" Version="4.8.0.1821" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Pages\LoginPage.xaml.cs">
+        <DependentUpon>LoginPage.xaml</DependentUpon>
+      </Compile>
+      <Compile Update="Pages\LoginEditPage.xaml.cs">
+        <DependentUpon>LoginEditPage.xaml</DependentUpon>
+      </Compile>
+      <Compile Update="Pages\SignUpPage.xaml.cs">
+        <DependentUpon>SignUpPage.xaml</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Pages\SignUpPage.xaml">
+        <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Pages\LoginEditPage.xaml">
+        <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      </EmbeddedResource>
+    </ItemGroup>
+</Project>

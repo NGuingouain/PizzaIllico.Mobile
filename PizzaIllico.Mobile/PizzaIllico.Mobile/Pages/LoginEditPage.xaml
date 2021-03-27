@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<forms:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                       xmlns:forms="clr-namespace:Storm.Mvvm.Forms;assembly=Storm.Mvvm.Forms"
+                       xmlns:viewModels="clr-namespace:PizzaIllico.Mobile.ViewModels;assembly=PizzaIllico.Mobile"
+                       xmlns:pizzas="clr-namespace:PizzaIllico.Mobile.Dtos.Pizzas;assembly=PizzaIllico.Mobile"
+                       xmlns:extensions="clr-namespace:PizzaIllico.Mobile.Extensions;assembly=PizzaIllico.Mobile"
+                       x:Class="PizzaIllico.Mobile.Pages.LoginEditPage"
+                       Title="Login edit">
+
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="30" Spacing="40">
+            <BoxView HeightRequest="10"/>
+            <Frame BackgroundColor="#BF043055" HasShadow="False">
+                <Entry x:Name="Password" Text="{Binding Password}" Placeholder="Mot de passe"   
+                           PlaceholderColor="LightGray" HeightRequest="40"   
+                           IsPassword="True"  
+                           TextColor="White"/>
+            </Frame>
+            <Button Command="{Binding SubmitCommand}" Text="Save" TextColor="White"  
+                    FontAttributes="Bold" FontSize="Large" HorizontalOptions="FillAndExpand"  
+                    BackgroundColor="#088da5" />
+        </StackLayout>
+    </ContentPage.Content>
+
+</forms:BaseContentPage>

@@ -1,0 +1,12 @@
+C:\Users\Nicolas\source\repos\PizzaIllico.Mobile\PizzaIllico.Mobile\PizzaIllico.Mobile\bin\Debug\netstandard2.0\PizzaIllico.Mobile.deps.json
+C:\Users\Nicolas\source\repos\PizzaIllico.Mobile\PizzaIllico.Mobile\PizzaIllico.Mobile\bin\Debug\netstandard2.0\PizzaIllico.Mobile.dll
+C:\Users\Nicolas\source\repos\PizzaIllico.Mobile\PizzaIllico.Mobile\PizzaIllico.Mobile\bin\Debug\netstandard2.0\PizzaIllico.Mobile.pdb
+C:\Users\Nicolas\source\repos\PizzaIllico.Mobile\PizzaIllico.Mobile\PizzaIllico.Mobile\obj\Debug\netstandard2.0\PizzaIllico.Mobile.csprojAssemblyReference.cache
+C:\Users\Nicolas\source\repos\PizzaIllico.Mobile\PizzaIllico.Mobile\PizzaIllico.Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Nicolas\source\repos\PizzaIllico.Mobile\PizzaIllico.Mobile\PizzaIllico.Mobile\obj\Debug\netstandard2.0\Pages\ShopListPage.xaml.g.cs
+C:\Users\Nicolas\source\repos\PizzaIllico.Mobile\PizzaIllico.Mobile\PizzaIllico.Mobile\obj\Debug\netstandard2.0\PizzaIllico.Mobile.AssemblyInfoInputs.cache
+C:\Users\Nicolas\source\repos\PizzaIllico.Mobile\PizzaIllico.Mobile\PizzaIllico.Mobile\obj\Debug\netstandard2.0\PizzaIllico.Mobile.AssemblyInfo.cs
+C:\Users\Nicolas\source\repos\PizzaIllico.Mobile\PizzaIllico.Mobile\PizzaIllico.Mobile\obj\Debug\netstandard2.0\PizzaIllico.Mobile.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\source\repos\PizzaIllico.Mobile\PizzaIllico.Mobile\PizzaIllico.Mobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Nicolas\source\repos\PizzaIllico.Mobile\PizzaIllico.Mobile\PizzaIllico.Mobile\obj\Debug\netstandard2.0\PizzaIllico.Mobile.dll
+C:\Users\Nicolas\source\repos\PizzaIllico.Mobile\PizzaIllico.Mobile\PizzaIllico.Mobile\obj\Debug\netstandard2.0\PizzaIllico.Mobile.pdb
